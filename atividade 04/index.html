@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trocar Texto do Elemento</title>
+    <script type="text/javascript" src="./index.js" defer=""></script>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+
+  <body>
+    <h2>Lista de Itens</h2>
+
+    <ul id="lista">
+      <li id="item1">Item 1</li>
+      <li id="item2">Item 2</li>
+      <li id="item3">Item 3</li>
+    </ul>
+
+    <label for="novoTexto">Novo Texto:</label>
+    <input type="text" id="novoTexto" placeholder="Digite o novo texto">
+
+    <button onclick="trocarTexto('item2')">Trocar Texto do Item 2</button>
+
+    <script src="script.js"></script>
+
+
+  </body>
+
+</html>
